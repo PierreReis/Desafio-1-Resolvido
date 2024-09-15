@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+}
+#cabecalho {
+    background-color: #303030;
+    padding: 175px 0 125px 50px;
+    color:#FFFFFF;
+}
+#titulo-cabecalho {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#menu-informacional {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    padding: 100px 0 150px 0;
+}
+.informacao-quantitativa {
+    font-size: 35px;
+}
+#apresentacao {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+}
+#texto-apresentacao {
+    margin: auto;
+}
+#subtitulo {
+    font-size: 43px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#paragrafo {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: justify;
+}
+#formulario {
+    background-color: #303030;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+}
+#titulo-formulario {
+    padding: 75px 0 45px 0;
+}
+input {
+    height: 50px;
+    width: 400px;
+    color: #303030a2;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+button {
+    background-color: #C07212;
+    color: #FFFFFF;
+    height: 50px;
+    width: 190px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin: 20px 0 60px 0;
+}
+button:hover {
+    background-color: #95570b;
+    cursor: pointer;
+    transform: translateY(-3px);
+    transition: 0.5s;
+}
